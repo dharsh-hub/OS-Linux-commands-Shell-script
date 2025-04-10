@@ -386,7 +386,8 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/3216bbd0-1649-49e8-8a6c-422f13f25b09)
+![image](https://github.com/user-attachments/assets/d9041d64-be85-4426-939c-d96cb307bae6)
+
 
 cat < urllist.txt
 ```
@@ -416,6 +417,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2ccfbed2-734e-4e45-bbe2-1e8e07e28f89)
 
 
 mkdir backupdir
@@ -424,16 +426,19 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b090597c-0ecd-419f-a678-1ffb97768c94)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1b40b14d-9db7-4c77-b36d-c850d4e1fc36)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/a7eadb43-e5b0-4ac1-9762-57787e6d65c9)
+
 gunzip backup.tar.gz
 ## OUTPUT
 
@@ -458,6 +463,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/20f417a4-d03e-420e-8509-3f7d4d02c93a)
 
 
 cat < scriptest.sh 
